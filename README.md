@@ -33,12 +33,12 @@ setx OPENAI_API_KEY "sua-chave-de-api-aqui"
 
 ## Resultado:
 
-Será Extraindo o audio do video 
-Transcreverá o aúdio em texto
-Traduzirá o texto para o inglês
-Transformará o texto traduzido em áudio
-Substituirá o áudio do texto traduzido no vídeo.
-O vídeo processado será salvo como video_with_english_audio.mp4.
+- Será Extraindo o audio do video 
+- Transcreverá o aúdio em texto
+- Traduzirá o texto para o inglês
+- Transformará o texto traduzido em áudio
+- Substituirá o áudio do texto traduzido no vídeo.
+- O vídeo processado será salvo como video_with_english_audio.mp4.
 
 ## Limpeza de Arquivos Temporários
 O script remove automaticamente os arquivos temporários após a execução para garantir que não haja consumo desnecessário de espaço.
