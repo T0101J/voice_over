@@ -27,24 +27,20 @@ Este projeto é um script Python que automatiza o processamento de um vídeo, re
    pip install moviepy pydub openai whisper
 Configure sua chave de API da OpenAI:
 
-Defina a variável de ambiente OPENAI_API_KEY com sua chave de API da OpenAI:
-No Windows:
-bash
-Copiar código
+Defina a sua chave api de OPEANAI Ccomo variável de ambiente com o nome OPENAI_API_KEY e importe com a os.enverion :
+
 setx OPENAI_API_KEY "sua-chave-de-api-aqui"
-No Linux ou macOS:
-bash
-Copiar código
-export OPENAI_API_KEY="sua-chave-de-api-aqui"
-Execute o script:
 
-bash
-Copiar código
-python process_video.py
-Resultado:
+## Resultado:
 
+Será Extraindo o audio do video 
+Transcreverá o aúdio em texto
+Traduzirá o texto para o inglês
+Transformará o texto traduzido em áudio
+Substituirá o áudio do texto traduzido no vídeo.
 O vídeo processado será salvo como video_with_english_audio.mp4.
-Limpeza de Arquivos Temporários
+
+## Limpeza de Arquivos Temporários
 O script remove automaticamente os arquivos temporários após a execução para garantir que não haja consumo desnecessário de espaço.
 
 Observações
